@@ -1,0 +1,28 @@
+html *{font-family:Palatino !important;font-size:18px !important;line-height:1.333em !important}
+html body > center{display:block;min-width:720px !important;max-width:1020px !important;margin:0 auto !important;}
+html body > center table{background-color:#fff !important;width:100% !important;margin:0;}
+html body > center table tr[style="height:5px"]{height:1em !important}
+html body > center table tr[style="height:10px"]{height:2em !important}
+html body > center table tbody tr:first-child > td > table tbody > tr > td:first-child a{display:block;height:24px;width:24px;background-color:#fc6621;}
+html body > center table tbody tr:first-child > td > table tbody > tr > td:first-child a:before{display:block;content:'Y';font-family:tahoma;font-size:16px;text-align:center;line-height:24px;color:#fff}
+html body > center table tbody tr:first-child > td > table tbody > tr > td:first-child a img{display:none}
+html body > center table td{float:left;}
+html body > center table td.title{font-size:.75em !important}
+html body > center table td a{color:#fc6621;line-height:16px !important;}
+html body > center table td a:hover{border-bottom:1px solid #fc6621;text-decoration:none !important}
+html body > center table td a[id^='up_']{display:block;height:24px;width:24px;padding:0;margin:0;}
+html body > center table td a[id^='up_']:hover{border:none}
+html body > center table td a[id^='up_']:before{content:'\25B2';display:block;height:24px;width:24px;font-size:12px;line-height:20px;color:#ccc;}
+html body > center table td a[id^='up_']:before:hover{color:#fc6621}
+html body > center table td a[id^='up_'] img{display:none}
+html body > center table td span.comhead{font-size:12px !important}
+html body > center table td span.comment,html body > center table td span.comment *{font-size:16px !important}
+html body > center table td.default,html body > center table td.subtext{font-size:12px !important;color:#b5b5b5 !important;}
+html body > center table td.default span,html body > center table td.subtext span,html body > center table td.default a,html body > center table td.subtext a,html body > center table td.default a font,html body > center table td.subtext a font{color:#c5c5c5;font-size:12px !important;}
+html body > center table td.default span font[color="#3c963c"],html body > center table td.subtext span font[color="#3c963c"],html body > center table td.default a font[color="#3c963c"],html body > center table td.subtext a font[color="#3c963c"],html body > center table td.default a font font[color="#3c963c"],html body > center table td.subtext a font font[color="#3c963c"]{color:#3c963c !important}
+html body > center span.pagetop{line-height:16px !important;}
+html body > center span.pagetop *{font-size:16px !important;line-height:16px !important}
+html body > center span.pagetop td[style^="text-align"]{font-size:16px !important}
+html body > center span.pagetop a[href="newest"]{margin-left:5%}
+html body > center span.pagetop .topsel a{color:#fc6621 !important}
+input,textarea,select{font-family:Helvetica,Arial !important;font-size:.85em !important}
