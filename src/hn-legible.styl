@@ -40,6 +40,15 @@ html
           float: left
           &.title
             font-size: .75em !important
+          &[valign="top"]
+            display: block !important;
+            width:20px !important;
+            overflow:hidden !important;
+            > center
+              > a
+                margin: none !important
+              img[src="http://ycombinator.com/images/s.gif"]
+                display: none !important
           a
             color: yOrange;
             line-height: 16px !important;

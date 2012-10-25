@@ -8,6 +8,9 @@ html body > center table tbody tr:first-child > td > table tbody > tr > td:first
 html body > center table tbody tr:first-child > td > table tbody > tr > td:first-child a img{display:none}
 html body > center table td{float:left;}
 html body > center table td.title{font-size:.75em !important}
+html body > center table td[valign="top"]{display:block !important;width:20px !important;overflow:hidden !important;}
+html body > center table td[valign="top"] > center > a{margin:none !important}
+html body > center table td[valign="top"] > center img[src="http://ycombinator.com/images/s.gif"]{display:none !important}
 html body > center table td a{color:#fc6621;line-height:16px !important;}
 html body > center table td a:hover{border-bottom:1px solid #fc6621;text-decoration:none !important}
 html body > center table td a[id^='up_']{display:block;height:24px;width:24px;padding:0;margin:0;}
